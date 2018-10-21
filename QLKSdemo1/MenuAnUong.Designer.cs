@@ -28,13 +28,28 @@
         /// </summary>
         private void InitializeComponent()
         {
+            this.metroPanel1 = new MetroFramework.Controls.MetroPanel();
             this.SuspendLayout();
+            // 
+            // metroPanel1
+            // 
+            this.metroPanel1.HorizontalScrollbarBarColor = true;
+            this.metroPanel1.HorizontalScrollbarHighlightOnWheel = false;
+            this.metroPanel1.HorizontalScrollbarSize = 10;
+            this.metroPanel1.Location = new System.Drawing.Point(23, 78);
+            this.metroPanel1.Name = "metroPanel1";
+            this.metroPanel1.Size = new System.Drawing.Size(488, 170);
+            this.metroPanel1.TabIndex = 0;
+            this.metroPanel1.VerticalScrollbarBarColor = true;
+            this.metroPanel1.VerticalScrollbarHighlightOnWheel = false;
+            this.metroPanel1.VerticalScrollbarSize = 10;
             // 
             // MenuAnUong
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(534, 442);
+            this.Controls.Add(this.metroPanel1);
             this.Name = "MenuAnUong";
             this.Text = "MenuAnUong";
             this.ResumeLayout(false);
@@ -42,5 +57,7 @@
         }
 
         #endregion
+
+        private MetroFramework.Controls.MetroPanel metroPanel1;
     }
 }

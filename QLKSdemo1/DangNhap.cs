@@ -82,7 +82,7 @@ namespace QLKSdemo1
             {
                 IDnhan.Visible = true;
             }
-            if (IDnhan.Text != "TaiKhoan" && IDnhan.Text != string.Empty)
+            if (TaiKhoanBox.Text != "TaiKhoan" && TaiKhoanBox.Text != string.Empty)
             {
                 IDnhan.Visible = false;
             }
